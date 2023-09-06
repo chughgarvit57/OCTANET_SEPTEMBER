@@ -19,6 +19,7 @@ nav{
     font-family: 'Poppins',sans-serif;
     position: absolute;
     top: 0;
+    /* filter: drop-shadow(2px 2px 10px white); */
 }
 
 .menu-navigation-links a{
@@ -83,6 +84,7 @@ nav{
 .right-box img{
     width: 100%;
     -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0004);
+    filter: drop-shadow(2px 2px 10px #f5f5f5);
 }
 
 .left-box h1{
@@ -110,4 +112,5 @@ nav{
 
 .social-icons img{
     width: 100px;
+    filter: drop-shadow(2px 2px 10px white);
 }
